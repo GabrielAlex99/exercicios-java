@@ -10,6 +10,6 @@ public class Main {
         System.out.println("Informe seu ano de nascimento:");
         int age = scanner.nextInt();
         var year = OffsetDateTime.now().getYear();
-        System.out.println("Olá, " + name + "! Sua idade é: " + (year - age) + " anos");
+        System.out.println("Olá, " + name + "! Este ano você completa ou já completou " + (year - age) + " anos.");
     }
 }
